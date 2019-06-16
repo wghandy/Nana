@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="./css/base_px.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/xqy.css">
+    <script src="./js/index.js"></script>
+    <script src="./js/include.js"></script>
+    <script src="./src/jquery-3.4.1.js"></script>
+    <script src="./js/xqy.js"></script>
+</head>
+
+<body>
+    <!-- 固定悬浮窗口 -->
+    <div class="suspension">
+        <ul>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <p>
+                        <em class="siDe">
+                            0
+                        </em>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-shouji"></i>
+                    <p>APP</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-kefu"></i>
+                    <p>客服</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-jiankuohao-xi-shang"></i>
+                    <p>TOP</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 登录头部 -->
+    <!-- <include src="./tpl/top.html"></include> -->
+    <div id="top" class="top">
+        <div class="top_c con">
+            <ul class="top_uo">
+                <li>
+                    您好！欢迎来到NALA
+                    【<a class="top_ao" href="./html/login.html">请登录</a>
+                    <span></span>
+                    <a class="top_at" href="">免费登录</a>】
+                </li>
+            </ul>
+            <ul class="top_ut">
+                <li>
+                    <a href="javascrip:;">我的现货单</a>
+                </li>
+                <li>
+                    <a href="javascrip:;">我的订货单</a>
+                </li>
+                <li>
+                    <a href="javascrip:;">我的收藏夹</a>
+                </li>
+                <li>
+                    <a href="javascrip:;">帮助中心</a>
+                </li>
+                <li class="l_n">
+                    <i class="iconfont icon-shouji"></i>
+                    <span>手机逛NALA</span>
+                    <img class="n_img" src="./src/111_r2_c2.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 输入框、logo -->
+    <div class="herder">
+        <div class="con hd_t">
+            <!-- logo -->
+            <div class="head_log">
+                <h1>
+                    <a href="index1.html">
+                        <img src="src/logo-0409.png" alt="">
+                    </a>
+                </h1>
+            </div>
+            <!-- 输入框 -->
+            <div class="head_c">
+                <div class="c_top">
+                    <i class="iconfont icon-weibiaoti--"></i>
+                    <form class="c_form" action="">
+                        <input class="form_o" type="text" value="请输入商品名称">
+                        <!-- <button class="form_b">搜索</button> -->
+                        <input type="button" value="搜索" class="form_b">
+                    </form>
+                </div>
+                <ul class="c_ul">
+                    <li>
+                        热搜榜:
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 购物车 -->
+            <div class="head_s">
+                <a href="">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <span>购物车</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hd_b">
+            <div class="nav_c con">
+                <div class="nav_l">
+                    <h2 class="xiaLa">
+                        <a href="">
+                            <i class="iconfont icon-santiaoxian"></i>
+                            所有分类
+                        </a>
+                    </h2>
+                    <ul class="nav_ul xia">
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br><a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                            <div class="ul_active">
+                                <ul>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离</a>/
+                                        <a href="javascrip:;">妆前</a>/
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">妆前隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">妆隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">妆前隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br>
+                                <a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                        </li>
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br>
+                                <a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                        </li>
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br>
+                                <a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="nav">
+                    <li>
+                        <a href="javascrip:;">首页</a>
+                        <div class="nav_tr"></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">品牌大全</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">NALA热销</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">快速购买</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">NALA服务</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">NALA圈子</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">杭州美妆峰会</a>
+                        <div></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 详情页的main -->
+    <div class="xqy_main con">
+        <!-- 类别 -->
+        <div class="here">
+            <a href="/">首页</a>
+            <span>&gt;</span>
+            <a href="">护肤</a>
+            <span>&gt;</span>
+            <a href="">面膜</a>
+            <span>&gt;</span>
+            <a href="">面膜贴</a>
+            <span>&gt;</span>
+            韩国捷俊JAYJUN 樱花童颜水光焕白面膜
+        </div>
+
+        <!-- 信息 -->
+        <div class="xqy_top">
+            <!-- <div class="xqy_l">
+                <img src="./src/login-pic.jpg" alt="">
+                <div class="xqy_k">
+                    <ul>
+                        <li>
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </li>
+                        <a class="xqy_la1" href="javascript:;">
+                            <i class="iconfont icon-jiankuohaoxizuo"></i>
+                        </a>
+                        <a class="xqy_la2" href="javascript:;">
+                            <i class="iconfont icon-jiankuohaoxiyou"></i>
+                        </a>
+                    </ul>
+                </div>
+                <p>
+                    <span>销量：13682</span>
+                    <span><i class="iconfont icon-weibiaoti-
+                        "></i>收藏商品</span>
+                </p>
+            </div>
+            <div class="xqy_c">
+                <p class="main_q1">澳洲红地球Red Earth 炙爱丝绒唇釉</p>
+                <p class="main_q2">
+                    <span>丝绒雾感唇釉</span>
+                    <span>小仙女都心水</span>
+                </p>
+                <div class="xqy_c_main">
+                    <p class="main_q3 main_con">
+                        <span>
+                            批发价：
+                        </span>
+                        <span class="sp_con">
+                            <i>￥</i>18.00 - 49.00
+                        </span>
+                    </p>
+                    <p class="main_q4">
+                        <span>
+                            建议零售价：
+                        </span>
+                        <span class="sp_con1">
+                            <i>￥</i> 28.00 - 68.00
+                        </span>
+                    </p>
+                    <p class="main_q5">
+                        <span>
+                            起批量：10件
+                        </span>
+                        <span class="sp_con2"><i class="iconfont icon-dagou"></i>混批</span>
+                    </p>
+                </div>
+                <ul class="xqy_cul">
+                    <li class="xqy_active">现 货</li>
+                    <li>订 单</li>
+                </ul>
+                <ul class="xqy_cul1">
+                    <li>规格</li>
+                    <li>批发价</li>
+                    <li>箱规</li>
+                    <li>库存</li>
+                    <li>数量</li>
+                </ul>
+                <ul class="xqy_cul2">
+                    <li>
+                        <div class="xqy_cul_img">
+                            <img src="./src/640X640_1560319342066202.jpg" alt="">
+                        </div>
+                        <div class="xqy_cul2_li1">
+                            <p>35g</p>
+                            <p class="tiMa" style="color: ">条码：6926799621490</p>
+                        </div>
+                    </li>
+                    <li>
+                        ￥<span class="zqy_jaGe">45</span>
+                    </li>
+                    <li>
+                        21
+                    </li>
+                    <li>
+                        142件
+                    </li>
+                    <li>
+                        <div class="no5">
+                            <div class="skunum">
+                                <span class="jian"><i class="iconfont icon-jianhao"></i></span>
+                                <input class="shuZi" type="text" value="0" data-storage="232">
+                                <span class="jia"><i class="iconfont icon-add"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="xqy_zj">
+                    <span>总额：<em>￥</em><i class="zJia">0.00</i></span>
+                    <span>数量：<em class="number">0</em></span>
+                </div>
+                <div class="xqy_buy">
+                    <a>
+                        <i class="iconfont icon-gouwuche"></i>加入购物车
+                    </a>
+                </div>
+                <div class="xqy_footer">
+                    <span><i class="iconfont icon-dagou"></i>正品货源</span>
+                    <span><i class="iconfont icon-dagou"></i>正品货源</span>
+                    <span><i class="iconfont icon-dagou"></i>正品货源</span>
+                    <span><i class="iconfont icon-dagou"></i>正品货源</span>
+                    <span><i class="iconfont icon-dagou"></i>正品货源</span>
+                </div>
+            </div> -->
+            <div class="xqy_r">
+                <ul>
+                    <li>
+                        <img src="./src/1553837938936563.jpg" alt="">
+                    </li>
+                    <li><span>品牌名称：</span>柳屋</li>
+                    <li><span>品牌目标人群：</span>脱发人群</li>
+                    <li><span>进驻情况：</span>脱发人群</li>
+                    <li><span>品牌归属国家：</span>日本</li>
+                    <li><span>供应产品：</span>1 款</li>
+                    <li>
+                        <a href="javascript:;">
+                            品牌主页
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 大面积图片区域 -->
+        <div class="xqy_bottom">
+            <div class="bottom_l">
+                <div class="bottom_l_top">
+                    大家好
+                </div>
+                <ul>
+                    <li>
+                        <img src="./src/800X800_1557214729686797.jpg" alt="">
+                        <p>韩国LG 睿嫣洗护二合一润膏</p>
+                        <p>
+                            <span>￥</span>28.00
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./src/800X800_1557214729686797.jpg" alt="">
+                        <p>韩国LG 睿嫣洗护二合一润膏</p>
+                        <p>
+                            <span>￥</span>28.00
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./src/800X800_1557214729686797.jpg" alt="">
+                        <p>韩国LG 睿嫣洗护二合一润膏</p>
+                        <p>
+                            <span>￥</span>28.00
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./src/800X800_1557214729686797.jpg" alt="">
+                        <p>韩国LG 睿嫣洗护二合一润膏</p>
+                        <p>
+                            <span>￥</span>28.00
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom_r">
+                <img src="./src/canvas_r2_c2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer_diBu">
+        <ul class="con diBu_ul">
+            <li>
+                <img src="./src/zphy.png" alt="">
+                <div class="f_text">
+                    <p>
+                        正品货源
+                    </p>
+                    <p>
+                        可申请品牌授权、原装进口、中文标签
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="./src/zphy.png" alt="">
+                <div class="f_text">
+                    <p>
+                        专属服务
+                    </p>
+                    <p>
+                        一对一分配服务、运营指导
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="./src/zphy.png" alt="">
+                <div class="f_text">
+                    <p>
+                        正品货源
+                    </p>
+                    <p>
+                        基于10年供应链的深耕和建设
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="./src/zphy.png" alt="">
+                <div class="f_text">
+                    <p>
+                        正品货源
+                    </p>
+                    <p>
+                        退货退款、退差价、开发票、产品资质等
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="./src/zphy.png" alt="">
+                <div class="f_text">
+                    <p>
+                        正品货源
+                    </p>
+                    <p>
+                        仓库直发，闪电配送
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <div class="footer_bottom">
+            <a href="">关于我们</a>/
+            <a href="">联系我们</a>/
+            <a href="">人才招聘</a>/
+            <a href="">红人合作</a>/
+            <a href="">品牌研发</a>/
+            <a href="">多元渠道</a>
+            <br>
+            <p>
+                ©2019 娜拉 nala.com.cn 浙江娜拉企业服务有限公司 备案/许可证号 浙ICP备19008037号-1
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

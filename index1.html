@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>娜拉美妆采销NALA - 为全球美妆商家提供采销服务的平台</title>
+    <link rel="stylesheet" href="./css/base_px.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <script src="./js/include.js"></script>
+    <script src="./src/jquery-3.4.1.js"></script>
+    <script src="./src/Cookie.js"></script>
+    <script src="./js/jQuery.js"></script>
+</head>
+
+<body>
+    <!-- 固定悬浮窗口 -->
+    <div class="suspension">
+        <ul>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <p>
+                        <em class="siDe">
+                            0
+                        </em>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-shouji"></i>
+                    <p>APP</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-kefu"></i>
+                    <p>客服</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-jiankuohao-xi-shang"></i>
+                    <p>TOP</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 登录头部 -->
+    <!-- <include src="./tpl/top.html"></include> -->
+    <div id="top" class="top">
+        <div class="top_c con">
+            <ul class="top_uo">
+                <li>
+                    您好！欢迎来到NALA
+                    【<a class="top_ao" href="login.html">请登录</a>
+                    <span></span>
+                    <a class="top_at" href="">免费登录</a>】
+                </li>
+            </ul>
+            <ul class="top_ut">
+                <li>
+                    <a href="javascrip:;">我的现货单</a>
+                </li>
+                <li>
+                    <a href="javascrip:;">我的订货单</a>
+                </li>
+                <li>
+                    <a href="javascrip:;">我的收藏夹</a>
+                </li>
+                <li>
+                    <a href="javascrip:;">帮助中心</a>
+                </li>
+                <li class="l_n">
+                    <i class="iconfont icon-shouji"></i>
+                    <span>手机逛NALA</span>
+                    <img class="n_img" src="./src/111_r2_c2.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 输入框、logo -->
+    <div class="herder">
+        <div class="con hd_t">
+            <!-- logo -->
+            <div class="head_log">
+                <h1>
+                    <a href="index1.html">
+                        <img src="src/logo-0409.png" alt="">
+                    </a>
+                </h1>
+            </div>
+            <!-- 输入框 -->
+            <div class="head_c">
+                <div class="c_top">
+                    <i class="iconfont icon-weibiaoti--"></i>
+                    <form class="c_form" action="">
+                        <input class="form_o" type="text" value="请输入商品名称">
+                        <!-- <button class="form_b">搜索</button> -->
+                        <input type="button" value="搜索" class="form_b">
+                    </form>
+                </div>
+                <ul class="c_ul">
+                    <li>
+                        热搜榜:
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                    <li>
+                        <a href="">凡士林</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 购物车 -->
+            <div class="head_s">
+                <a href="shou.html">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <span>购物车</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hd_b">
+            <div class="nav_c con">
+                <div class="nav_l">
+                    <h2>
+                        <a href="">
+                            <i class="iconfont icon-santiaoxian"></i>
+                            所有分类
+                        </a>
+                    </h2>
+                    <ul class="nav_ul">
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br><a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                            <div class="ul_active">
+                                <ul>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离</a>/
+                                        <a href="javascrip:;">妆前</a>/
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">妆前隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">妆隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascrip:;">妆前隔离：</a>
+                                        <a href="javascrip:;">隔离/</a>
+                                        <a href="javascrip:;">妆前/</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br>
+                                <a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                        </li>
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br>
+                                <a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                        </li>
+                        <li class="q1">
+                            <h3><a href="">护肤</a></h3>
+                            <div class="ul_a">
+                                <a href="javascrip:;" target="_balnk">面膜</a>
+                                <a href="javascrip:;" target="_balnk">精华</a>
+                                <a href="javascrip:;" target="_balnk">乳液</a>
+                                <a href="javascrip:;" target="_balnk">眼霜</a>
+                                <a href="javascrip:;" target="_balnk">唇膜</a>
+                                <br>
+                                <a href="javascrip:;" target="_balnk">防晒</a>
+                                <a href="javascrip:;" target="_balnk">套装</a>
+                                <a href="javascrip:;" target="_balnk">喷雾</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="nav">
+                    <li>
+                        <a href="javascrip:;">首页</a>
+                        <div class="nav_tr"></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">品牌大全</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">NALA热销</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">快速购买</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">NALA服务</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">NALA圈子</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">杭州美妆峰会</a>
+                        <div></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 轮播图 -->
+    <div class="index_banner">
+        <ul class="banner_ul">
+            <li>
+                <img src="./src/1920X420_15597284676321203.jpg" alt="">
+            </li>
+            <li>
+                <img src="./src/1920X420_1558681127023856.jpg" alt="">
+            </li>
+            <li>
+                <img src="./src/1920X420_1559112405301704.jpg" alt="">
+            </li>
+            <li>
+                <img src="./src/1920X420_1559112475872888.jpg" alt="">
+            </li>
+            <li>
+                <img src="./src/1920X420_1557971046142327.jpg" alt="">
+            </li>
+            <li>
+                <img src="./src/1920X420_15597284676321203.jpg" alt="">
+            </li>
+        </ul>
+        <div class="slider-control">
+            <span class="prev">&lt;</span>
+            <span class="text">&gt;</span>
+        </div>
+        <div class="slider-active">
+
+        </div>
+        <div class="banner_right">
+            <div class="r_head">
+                <div class="r_h">
+
+                </div>
+                <p class="r_p1">Hi!欢迎来到NALA</p>
+                <p class="r_p2">
+                    <a href="./html/login.html">登录</a>
+                    <a href="./html/register.html">注册</a>
+                </p>
+            </div>
+            <div class="r_center">
+                <p>
+                    <span class="banner_a1 bon" href="">近期交易</span>
+                    <span class="banner_a2 bon" href="">NALA圈子</span>
+                </p>
+                <div class="center_box">
+                    <div class="box_keShi">
+                        <ul class="center_a1 c_con">
+                            <li>近期交易近期交易</li>
+                            <li>期交易近期</li>
+                            <li>期交易近期</li>
+                            <li>NALA圈子NALA圈子</li>
+                            <li>近期交易近期交易</li>
+                            <li>期交易近期</li>
+                            <li>期交易近期</li>
+                            <li>NALA圈子NALA圈子</li>
+                        </ul>
+                        <ul class="center_a2 c_con">
+                            <li>近期交易近期交易</li>
+                            <li>期交易近期</li>
+                            <li>期交易近期</li>
+                            <li>NALA圈子NALA圈子</li>
+                            <li>近期交易近期交易</li>
+                            <li>期交易近期</li>
+                            <li>期交易近期</li>
+                            <li>NALA圈子NALA圈子</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="r_footer">
+                <ul class="footer_ul">
+                    <li>
+                        <a href="javascrip:;"><img src="./src/jddj.png" alt=""></a>
+                        <p><a href="">正品行货</a></p>
+                    </li>
+                    <li>
+                        <img src="./src/ksfh.png" alt="">
+                        <p><a href="">正品行货</a></p>
+                    </li>
+                    <li>
+                        <img src="./src/ppsq.png" alt="">
+                        <p><a href="">正品行货</a></p>
+                    </li>
+                    <li>
+                        <img src="./src/shwy2.png" alt="">
+                        <p><a href="">正品行货</a></p>
+                    </li>
+                    <li>
+                        <img src="./src/ydyzd.png" alt="">
+                        <p><a href="">正品行货</a></p>
+                    </li>
+                    <li>
+                        <img src="./src/zphh.png" alt="">
+                        <p><a href="">正品行货</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 品牌log -->
+    <div class="yunYin">
+        <div class="con yunYin_c">
+            <img src="./src/510X192_15580557767621239.jpg" alt="">
+            <img src="./src/510X192_15580557867331.jpg" alt="">
+            <img src="./src/510X192_1558055793277902.jpg" alt="">
+            <img src="./src/510X192_15580560855901103.jpg" alt="">
+        </div>
+        <div class="con brand">
+            <div class="brand_top">
+                <div class="hot">
+                    <span>品牌热门</span>
+                    <span>/ HOT BRANDS</span>
+                </div>
+                <ul class="brand_ul">
+                    <li>
+                        <a href="javascrip:;">某品牌</a>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">某品牌</a>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">某品牌</a>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">某品牌</a>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">某品牌</a>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">某品牌</a>
+                    </li>
+                    <li>
+                        <a href="javascrip:;">某品牌</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="brand_footer">
+                <ul>
+                    <!-- <li>
+                        <a href="javascrip:;">
+                            <img src="./src/155297498743614 .jpg" alt="">
+                        </a>
+                        <p>地球红</p>
+                        <div class="zHao">
+                            <p>
+                                <a href="javascrip:;">澳洲天人彩妆品牌</a>
+                            </p>
+                            <p>
+                                <a href="javascrip:;">可申请授权证书</a>
+                            </p>
+                            <a href="javascrip:;">点击进入</a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 清单 -->
+    <div class="qDan">
+        <div class="con">
+            <h2 class="qDan_h">选品清单</h2>
+            <ul>
+                <li class="qDan_l1">
+                    <img src="./src/1125X473_155664189304477 (1).jpg" alt="">
+                    <ul class="l1_ul">
+                        <!-- <li>
+                            <a href="">
+                                <img src="./src/1200X1200_1560135707026878.jpg" alt="">
+                                <p class="l1_p">韩国斯内普SNP 睡眠面膜系列20支装</p>
+                                <p>登录后查看价格</p>
+                            </a>
+                        </li> -->
+                    </ul>
+                    <div class="qDan_footer">
+                        <span>此清单一共33个商品</span>
+                        <a href="">查看全部></a>
+                    </div>
+                </li>
+                <li class="qDan_l1">
+                    <img src="./src/1125X473_155664189304477 (1).jpg" alt="">
+                    <ul class="l1_ul">
+                        <!-- <li>
+                            <a href="">
+                                <img src="./src/1200X1200_1560135707026878.jpg" alt="">
+                                <p class="l1_p">韩国斯内普SNP 睡眠面膜系列20支装</p>
+                                <p>登录后查看价格</p>
+                            </a>
+                        </li> -->
+                    </ul>
+                    <div class="qDan_footer">
+                        <span>此清单一共33个商品</span>
+                        <a href="">查看全部></a>
+                    </div>
+                </li>
+                <li class="qDan_l1">
+                    <img src="./src/1125X473_155664189304477 (1).jpg" alt="">
+                    <ul class="l1_ul">
+                        <!-- <li>
+                            <a href="">
+                                <img src="./src/1200X1200_1560135707026878.jpg" alt="">
+                                <p class="l1_p">韩国斯内普SNP 睡眠面膜系列20支装</p>
+                                <p>登录后查看价格</p>
+                            </a>
+                        </li> -->
+                    </ul>
+                    <div class="qDan_footer">
+                        <span>此清单一共33个商品</span>
+                        <a href="">查看全部></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+        <!-- 头顶四张图 -->
+        <div class="main_top con">
+            <ul>
+                <li>
+                    <img src="./src/510X144_1556641836893579.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./src/510X144_15566418443821075.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./src/510X144_155664185524359.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./src/510X144_1556641850050119.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <!-- 新品首发 -->
+        <div class="item_new con">
+            <div class="new_top">
+                <img src="./src/xpsf (1).png" alt="">
+                <p>每月上线新品</p>
+            </div>
+            <div class="new_center main_con">
+                <ul>
+                    <!-- <li>
+                        <a href="">
+                            <img src="./src/430X430_1559696908055301.jpg" alt="">
+                            <p>瑞士怀尔德Dr.wild 再生牙釉质黄金牙膏75ml</p>
+                            <p>登录后查看价格</p>
+                            <p>
+                                <span>建议零售价：￥ 699</span>
+                                <span class="new_center_sp">起批量：6</span>
+                            </p>
+                        </a>
+                    </li> -->
+                </ul>
+                <p class="new_footer">
+                    <a href="">查看全部12件商品></a>
+                </p>
+            </div>
+        </div>
+        <!-- 线上最受欢迎品牌 -->
+        <div class="item_rank con">
+            <div class="item_list main_con">
+                <ul>
+                    <!-- <li>
+                        <a href="">
+                            <img src="./src/430X430_1559696908055301.jpg" alt="">
+                            <p>瑞士怀尔德Dr.wild 再生牙釉质黄金牙膏75ml</p>
+                            <p>登录后查看价格</p>
+                            <p>
+                                <span>建议零售价：￥ 699</span>
+                                <span class="new_center_sp">起批量：6</span>
+                            </p>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- 线下最受欢迎品牌 -->
+        <div class="item_offline con">
+            <div class="offline_list main_con">
+                <ul>
+                    <!-- <li>
+                        <a href="">
+                            <img src="./src/430X430_1559696908055301.jpg" alt="">
+                            <p>瑞士怀尔德Dr.wild 再生牙釉质黄金牙膏75ml</p>
+                            <p>登录后查看价格</p>
+                            <p>
+                                <span>建议零售价：￥ 699</span>
+                                <span class="new_center_sp">起批量：6</span>
+                            </p>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- 新品上架，这里的结构可以公用 -->
+        <!-- 1 -->
+        <div class="item_floor con">
+            <div class="floor_top">
+                <span>应季热品</span>
+                <span>/ IN SEASON</span>
+                <a href="">更多>></a>
+            </div>
+            <div class="floor_b">
+                <div class="floor_b_l">
+                    <a href="">
+                        <img src="./src/15551679712531091.png" alt="">
+                    </a>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="floor_b_r">
+                    <ul>
+                        <!-- <li>
+                            <a href="">
+                                <img src="./src/800X800_1557214729686797.jpg" alt="">
+                                <div class="floor_b_r_xi">
+                                    <p>日本姬芮ZA 新能真皙美白隔离霜（吃豆人版）</p>
+                                    <p>
+                                        <span>已经售：7588件</span>
+                                        <span class="floor_b_r_sp">起批量：6</span>
+                                    </p>
+                                    <p>登录后查看价格</p>
+                                    <p>
+                                        建议零售价：￥58
+                                    </p>
+                                </div>
+                            </a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="item_floor con">
+            <div class="floor_top">
+                <span>新品上架</span>
+                <span>/ IN SEASON</span>
+                <a href="">更多>></a>
+            </div>
+            <div class="floor_b">
+                <div class="floor_b_l">
+                    <a href="">
+                        <img src="./src/15551679712531091.png" alt="">
+                    </a>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="floor_b_r">
+                    <ul>
+                        <!-- <li>
+                                <a href="">
+                                    <img src="./src/800X800_1557214729686797.jpg" alt="">
+                                    <div class="floor_b_r_xi">
+                                        <p>日本姬芮ZA 新能真皙美白隔离霜（吃豆人版）</p>
+                                        <p>
+                                            <span>已经售：7588件</span>
+                                            <span class="floor_b_r_sp">起批量：6</span>
+                                        </p>
+                                        <p>登录后查看价格</p>
+                                        <p>
+                                            建议零售价：￥58
+                                        </p>
+                                    </div>
+                                </a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="item_floor con">
+            <div class="floor_top">
+                <span>护肤</span>
+                <span>/ IN SEASON</span>
+                <a href="">更多>></a>
+            </div>
+            <div class="floor_b">
+                <div class="floor_b_l">
+                    <a href="">
+                        <img src="./src/15551679712531091.png" alt="">
+                    </a>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="floor_b_r">
+                    <ul>
+                        <!-- <li>
+                                <a href="">
+                                    <img src="./src/800X800_1557214729686797.jpg" alt="">
+                                    <div class="floor_b_r_xi">
+                                        <p>日本姬芮ZA 新能真皙美白隔离霜（吃豆人版）</p>
+                                        <p>
+                                            <span>已经售：7588件</span>
+                                            <span class="floor_b_r_sp">起批量：6</span>
+                                        </p>
+                                        <p>登录后查看价格</p>
+                                        <p>
+                                            建议零售价：￥58
+                                        </p>
+                                    </div>
+                                </a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="item_floor con">
+            <div class="floor_top">
+                <span>面膜</span>
+                <span>/ IN SEASON</span>
+                <a href="">更多>></a>
+            </div>
+            <div class="floor_b">
+                <div class="floor_b_l">
+                    <a href="">
+                        <img src="./src/15551679712531091.png" alt="">
+                    </a>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="floor_b_r">
+                    <ul>
+                        <!-- <li>
+                                    <a href="">
+                                        <img src="./src/800X800_1557214729686797.jpg" alt="">
+                                        <div class="floor_b_r_xi">
+                                            <p>日本姬芮ZA 新能真皙美白隔离霜（吃豆人版）</p>
+                                            <p>
+                                                <span>已经售：7588件</span>
+                                                <span class="floor_b_r_sp">起批量：6</span>
+                                            </p>
+                                            <p>登录后查看价格</p>
+                                            <p>
+                                                建议零售价：￥58
+                                            </p>
+                                        </div>
+                                    </a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 5 -->
+        <div class="item_floor con">
+            <div class="floor_top">
+                <span>彩妆</span>
+                <span>/ IN SEASON</span>
+                <a href="">更多>></a>
+            </div>
+            <div class="floor_b">
+                <div class="floor_b_l">
+                    <a href="">
+                        <img src="./src/15551679712531091.png" alt="">
+                    </a>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="floor_b_r">
+                    <ul>
+                        <!-- <li>
+                                    <a href="">
+                                        <img src="./src/800X800_1557214729686797.jpg" alt="">
+                                        <div class="floor_b_r_xi">
+                                            <p>日本姬芮ZA 新能真皙美白隔离霜（吃豆人版）</p>
+                                            <p>
+                                                <span>已经售：7588件</span>
+                                                <span class="floor_b_r_sp">起批量：6</span>
+                                            </p>
+                                            <p>登录后查看价格</p>
+                                            <p>
+                                                建议零售价：￥58
+                                            </p>
+                                        </div>
+                                    </a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 6 -->
+        <div class="item_floor con">
+            <div class="floor_top">
+                <span>个人护理</span>
+                <span>/ IN SEASON</span>
+                <a href="">更多>></a>
+            </div>
+            <div class="floor_b">
+                <div class="floor_b_l">
+                    <a href="">
+                        <img src="./src/15551679712531091.png" alt="">
+                    </a>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="floor_b_r">
+                    <ul>
+                        <!-- <li>
+                                    <a href="">
+                                        <img src="./src/800X800_1557214729686797.jpg" alt="">
+                                        <div class="floor_b_r_xi">
+                                            <p>日本姬芮ZA 新能真皙美白隔离霜（吃豆人版）</p>
+                                            <p>
+                                                <span>已经售：7588件</span>
+                                                <span class="floor_b_r_sp">起批量：6</span>
+                                            </p>
+                                            <p>登录后查看价格</p>
+                                            <p>
+                                                建议零售价：￥58
+                                            </p>
+                                        </div>
+                                    </a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_footer con">
+            <div class="footer_hd">
+                <strong>为你推荐</strong>
+            </div>
+            <div class="footer_b">
+                <ul>
+                    <!-- <li>
+                        <a href="">
+                            <img src="./src/800X800_1557214729686797.jpg" alt="">
+                            <div class="floor_b_r_xi">
+                                <p>日本姬芮ZA 新能真皙美白隔离霜（吃豆人版）</p>
+                                <p>
+                                    <span>已经售：7588件</span>
+                                    <span class="floor_b_r_sp">起批量：6</span>
+                                </p>
+                                <p>登录后查看价格</p>
+                                <p>
+                                    建议零售价：￥58
+                                </p>
+                            </div>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- <img src="./src/1200X1200_1560135707026878.jpg" alt=""> -->
+    <include src="./tpl/footer.html"></include>
+</body>
+
+</html>
